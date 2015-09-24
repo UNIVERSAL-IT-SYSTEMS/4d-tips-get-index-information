@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<verifylog operation="Verify" name="HOST" structure="Macintosh HD:Users:miyako:Desktop:HOST.4dbase:HOST.4DB" data="Macintosh HD:Users:miyako:Desktop:HOST.4dbase:HOST.4DD" os="Mac OS X (10.11)">
+<start_timer time="2015-09-24T14:28:57+09:00"/>
+<step title="メンテナンスモードでデータベースを開く">
+</step>
+<step title="ストラクチャーの内部データベースを検査">
+	<step title="セグメント 1 のビットテーブルをチェック">
+	</step>
+	<step title="セグメント 65 のビットテーブルをチェック">
+	</step>
+	<step title="自動シーケンス番号定義をチェック中">
+	</step>
+	<step title="削除された自動シーケンス番号定義の連鎖リストをチェック中">
+	</step>
+	<step title="データテーブル定義をチェック中">
+	</step>
+	<step title="削除されたテーブル定義の連鎖リストをチェック中">
+	</step>
+	<step title="インデックス定義をチェック中">
+	</step>
+	<step title="削除されたインデックス定義の連鎖リストをチェック中">
+	</step>
+	<step title="バックアップインデックス定義をチェック中">
+	</step>
+	<step title="削除されたバックアップインデックス定義の連鎖リストをチェック中">
+	</step>
+	<step title="データテーブルをロード中">
+		<step title="データテーブルヘッダーをチェック中">
+		</step>
+		<step title="削除されたデータテーブルヘッダーの連鎖リストをチェック中">
+		</step>
+	</step>
+	<step title="テーブル Resources のBLOBをチェック中">
+	</step>
+	<step title="テーブル Resources の削除されたBLOBのリストをチェック中">
+	</step>
+	<step title="テーブル Resources のレコードをチェック中
+">
+	</step>
+	<step title="テーブル Resources の削除されたレコードのリストをチェック中">
+	</step>
+	<step title="テーブル [Table#0] のBLOBをチェック中">
+	</step>
+	<step title="テーブル [Table#0] の削除されたBLOBのリストをチェック中">
+	</step>
+	<step title="テーブル [Table#0] のレコードをチェック中
+">
+	</step>
+	<step title="テーブル [Table#0] の削除されたレコードのリストをチェック中">
+	</step>
+	<step title="インデックスBツリー インデックス0 on kind (TYPE only)を検証中">
+		<step title="Bツリー インデックス0 on kind (TYPE only) のインデックスページアドレスをチェック中">
+		</step>
+		<step title="Bツリー インデックス0 on kind (TYPE only) インデックスページをチェック中">
+		</step>
+	</step>
+	<step title="インデックスBツリー インデックス1 on stamp (stamp)を検証中">
+		<step title="Bツリー インデックス1 on stamp (stamp) のインデックスページアドレスをチェック中">
+		</step>
+		<step title="Bツリー インデックス1 on stamp (stamp) インデックスページをチェック中">
+		</step>
+	</step>
+	<step title="インデックスBツリー インデックス2 on kind , id (TYPE and ID)を検証中">
+		<step title="Bツリー インデックス2 on kind , id (TYPE and ID) のインデックスページアドレスをチェック中">
+		</step>
+		<step title="Bツリー インデックス2 on kind , id (TYPE and ID) インデックスページをチェック中">
+		</step>
+	</step>
+</step>
+<step title="セグメントのビットテーブルを検査">
+	<step title="セグメント 1 のビットテーブルをチェック">
+	</step>
+</step>
+<step title="インデックスの検査">
+	<step title="Bツリー インデックス0 on Table_1.ID">
+		<step title="データテーブルをロード中">
+			<step title="データテーブルヘッダーをチェック中">
+			</step>
+			<step title="削除されたデータテーブルヘッダーの連鎖リストをチェック中">
+			</step>
+		</step>
+	</step>
+	<step title="Bツリー インデックス1 on Table_1.Field_7 , Table_1.Field_8 , Table_1.Field_9">
+	</step>
+	<step title="Bツリー インデックス2 on Table_1.Field_6">
+	</step>
+	<step title="Bツリー インデックス3 on Table_1.Field_5">
+	</step>
+	<step title="クラスターインデックス4 on Table_1.Field_4">
+	</step>
+	<step title="キーワードインデックス5 on Table_1.Field_3">
+	</step>
+</step>
+<stop_timer time="2015-09-24T14:28:57+09:00" success="true" user_canceled="false"/>
+</verifylog>
